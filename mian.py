@@ -1,5 +1,5 @@
 def calculate_bmi(weight, height):
-    return weight / (height ** 2)
+    return weight/(height ** 2)
 
 def bmi_calculator():
     weight = float(input("Enter your weight in kilograms: "))
