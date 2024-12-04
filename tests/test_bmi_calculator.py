@@ -1,7 +1,7 @@
 from main import calculate_bmi
 
 def test_calculate_bmi_normal_case():
-    assert calculate_bmi(70, 1.75) == 22.86  # Normal BMI (approximate value)
+    assert calculate_bmi(100, 2) == 25
 
 def test_calculate_bmi_underweight():
     assert calculate_bmi(50, 1.75) < 18.5
