@@ -1,4 +1,4 @@
-from bmi_calculator import calculate_bmi
+from main import calculate_bmi
 
 def test_calculate_bmi_normal_case():
     assert calculate_bmi(70, 1.75) == 22.86  # Normal BMI (approximate value)
