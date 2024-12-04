@@ -17,5 +17,3 @@ def bmi_calculator():
         print("You are obese.")
 
 bmi_calculator()
-
-input()
